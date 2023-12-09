@@ -1,0 +1,307 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+#all_card {
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#card {
+  width: 250px;
+  border: 2px solid black;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#card_h1 {
+  font-size: 35px;
+}
+
+#card_price {
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+#card_kg {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#plus {
+  padding: 15px 25px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#kg {
+  font-size: 50px;
+  margin: 0 15px;
+}
+
+#minus {
+  padding: 15px 25px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#bought {
+  padding: 15px 25px;
+  font-size: 23px;
+  margin-top: 15px;
+  cursor: pointer;
+  border: none;
+  background-color: rgb(35, 217, 35);
+  color: rgb(255, 255, 255);
+}
+
+#bought:hover {
+  background-color: rgb(0, 255, 0);
+  color: rgb(122, 113, 113);
+}
+
+#bought:active {
+  background-color: rgb(3, 163, 46);
+  color: white;
+}
+
+#savat {
+  margin-top: 150px;
+  margin-bottom: 50px;
+}
+
+#savat_h1 {
+  background-color: rgb(0, 255, 0);
+  padding: 50px 100px;
+  border-radius: 20px;
+  cursor: pointer;
+  color: white;
+}
+
+#savat_h1:hover {
+    background-color: rgb(91, 255, 91);
+    color: rgb(213, 207, 207);
+}
+
+#savat_h1:active {
+    background-color: rgb(36, 253, 36);
+    color: white;
+}
+
+/*  */
+#all_card1 {
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#card1 {
+  width: 250px;
+  border: 2px solid black;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#card_h11 {
+  font-size: 35px;
+}
+
+#card_price1 {
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+#card_kg1 {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#plus1 {
+  padding: 15px 25px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#kg1 {
+  font-size: 50px;
+  margin: 0 15px;
+}
+
+#minus1 {
+  padding: 15px 25px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/*  */
+#all_card2 {
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#card2 {
+  width: 250px;
+  border: 2px solid black;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#card_h12 {
+  font-size: 35px;
+}
+
+#card_price2 {
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+#card_kg2 {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#plus2 {
+  padding: 15px 25px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#kg2 {
+  font-size: 50px;
+  margin: 0 15px;
+}
+
+#minus2 {
+  padding: 15px 25px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/*  */
+
+#all_card3 {
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#card3 {
+  width: 250px;
+  border: 2px solid black;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#card_h13 {
+  font-size: 35px;
+}
+
+#card_price3 {
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+#card_kg3 {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#plus3 {
+  padding: 15px 25px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#kg3 {
+  font-size: 50px;
+  margin: 0 15px;
+}
+
+#minus3 {
+  padding: 15px 25px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+/*  */
+
+#all_card4   {
+  width: 1300px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+#card4 {
+  width: 250px;
+  border: 2px solid black;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+}
+
+#card_h14 {
+  font-size: 35px;
+}
+
+#card_price4 {
+  font-size: 25px;
+  padding-top: 15px;
+}
+
+#card_kg4 {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+#plus4 {
+  padding: 15px 25px;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+#kg4 {
+  font-size: 50px;
+  margin: 0 15px;
+}
+
+#minus4 {
+  padding: 15px 25px;
+  font-size: 30px;
+  cursor: pointer;
+}
